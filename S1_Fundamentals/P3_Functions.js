@@ -5,10 +5,16 @@
 
 
 var num = 18;
-printNum();
+this.printNum();
+this.printRandomNum();
 console.log(num);
 
 function printNum(){
     // var num = 45;   //on commenting 18 18 will print
+    console.log(num);
+}
+
+function printRandomNum(){
+    var num = 81;
     console.log(num);
 }
